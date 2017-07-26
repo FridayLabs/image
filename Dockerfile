@@ -3,6 +3,7 @@ FROM ubuntu:16.04
 LABEL maintainer="Krasnoperov Vitaliy <alistar.neron@gmail.com>"
 
 RUN apt-get update && apt-get install -y \
+        software-properties-common \
         supervisor \
         wget \
         curl \
